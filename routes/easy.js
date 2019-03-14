@@ -16,7 +16,7 @@ router.get('/easy', (req, res) => {
                 songDurArr.push(song.duration)
 
             })
-
+//comment
             function caloriesCalc(age, weight, fbz, arr) {
                 if (req.user.gender == 'm') {
                     console.log('m')
